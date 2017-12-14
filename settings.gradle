@@ -1,1 +1,1 @@
-include ':app', ':pluginsdk'
+include ':app', ':sitersdk'
