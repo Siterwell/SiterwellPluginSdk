@@ -96,4 +96,12 @@ public class LoginedScannedDevice extends AbstractScannedDevice implements Login
     public String getPassword() {
         return this.password != null ? this.password : "";
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " LoginInfo{" +
+            "username='" + getUserName() + '\'' +
+            ", password='" + getPassword() + '\'' +
+            '}';
+    }
 }
