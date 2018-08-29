@@ -30,6 +30,6 @@ class PluginItem(val pluginAppName: String,
                  val pluginDisplayName: String,
                  val pluginPackageName: String,
                  var currPluginVer: PluginVer,
-                 var latestPluginVer: PluginVer,
+                 var latestPluginVer: PluginVer?,
                  val iconRes: Int,
                  var installed: Boolean)
