@@ -2,7 +2,7 @@ package uk.co.siterwell.sitersdk
 
 class PluginVer(var majorVer: Int, var middleVer: Int, var minVer: Int) {
     override fun toString() : String {
-        return  "$majorVer.$middleVer+.$minVer"
+        return  "$majorVer.$middleVer.$minVer"
     }
 }
 
