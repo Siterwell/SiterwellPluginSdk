@@ -29,6 +29,7 @@ class PluginVer {
 class PluginItem(val pluginAppName: String,
                  val pluginDisplayName: String,
                  val pluginPackageName: String,
+                 val pluginProtocol: String,
                  val pluginLaunchActivity: String,
                  val pluginMainActivity: String,
                  var currPluginVer: PluginVer,
