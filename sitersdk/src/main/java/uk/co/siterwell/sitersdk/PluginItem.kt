@@ -34,5 +34,5 @@ class PluginItem(val pluginAppName: String,
                  val pluginMainActivity: String,
                  var currPluginVer: PluginVer,
                  var latestPluginVer: PluginVer?,
-                 val iconRes: Int,
+                 val iconUrl: String,
                  var installed: Boolean)
